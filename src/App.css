@@ -1,0 +1,37 @@
+.navbar{
+  position: fixed;
+  width: 100%;
+  background-color: #4C4C6D;
+  z-index: 100;
+}
+.nav-item .nav-link{
+  color: rgb(228, 228, 228);
+}
+.nav-item:hover .nav-link {
+  color: rgb(255, 255, 255);
+}
+.card{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 1px hsl(0deg 0% 0% / 0.48);
+
+}
+.card:hover{
+  cursor: pointer;
+  background-color: rgb(252, 252, 252);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 60px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card img{
+  border-radius: 7px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 6px 0 rgba(0, 0, 0, 0.19);
+
+ 
+}
+.card p{
+  font-size: 14px;
+}
+
+h4{
+  padding-top: 80px;
+  padding-left: 15px;
+}
